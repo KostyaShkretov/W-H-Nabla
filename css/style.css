@@ -15,10 +15,7 @@
 }
  .nav a { 
     text-decoration: none;
- }  
-  #margin-left {
-    margin-left: 50px;
-  }
+ }   
 .left-style {   
     color: #040062; 
     font-size: 24px; 
@@ -26,6 +23,8 @@
     font-weight: bold; 
 }  
  .ul-between { 
+    margin-left: 50px;
+    margin-right: 600px;
     display: flex;           /* выстраиваем li в ряд внутри каждого ul */
     gap: 32px;   
  }
@@ -33,10 +32,7 @@
     color: #040062; 
     font-size: 16px; 
     font-family: 'Ubuntu';
-    }
-    #margin-right{
-      margin-right: 600px;  
-    }
+    } 
  .right-style { 
      font-family: 'Ubuntu'; 
      font-size: 16px; 
