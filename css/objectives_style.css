@@ -23,7 +23,6 @@
   clip-path: inset(2% 0 2% 0);        
   border-radius: 35% / 9%; 
   overflow: hidden; 
-
 }
 .sec__right__div{
     display: flex;
@@ -40,5 +39,4 @@
     font-family: 'Ubuntu' sans-serif;
     max-width: none; 
     margin-right: -35%; 
-     
 } 
