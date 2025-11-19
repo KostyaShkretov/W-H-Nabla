@@ -136,5 +136,116 @@
 }
 /* sec-chats */
 
+/* sec-message */
+.sec-message {      
+  max-width: 1110px;    
+  margin: 0 auto; 
+  background: linear-gradient(to left, white 50%, #FEF1EF 50%); 
+}
+.sec-message__content{ 
+     display: flex;  
+     align-items: center;  
+     justify-content: space-between; 
+     padding: 7% 20%;
+     gap: 30%;
+}   
+.sec-message__img{
+  margin: 0% -25%;
+  border-radius: 37px;
+}
+.sec-message__text{
+   display: flex;
+   flex-direction: column;
+   gap: 32px;
+   font-family: 'Abril Fatface' cursive;
+}
+.sec-message__h1{
+   color: #040062;
+   font-size: 48px;
+   width: 450px; 
+   
+} 
+.sec-message__p {
+   line-height: 1.5;
+   color: #6D758D;
+   font-size: 14px;
+   width: 350px;
+   font-family: 'Ubuntu', sans-serif;
+}
+ /* sec-message */
 
- 
+/* sec-journal */
+ .sec-journal{      
+  max-width: 1110px;    
+  margin: 0 auto; 
+  background: linear-gradient(to left, #C7E3E9 50%, white 50%); 
+}
+.sec-journal__content{ 
+     display: flex;  
+     align-items: center;  
+     flex-direction: row-reverse ;
+     justify-content: space-between; 
+     padding: 7% 20%;
+     gap: 30%;
+}   
+.sec-journal__img {
+  margin: 0% 25%;
+  border-radius: 37px;
+}
+.sec-journal__text{
+   display: flex;
+   flex-direction: column;
+   gap: 32px;
+   font-family: 'Abril Fatface' cursive;
+   font-weight: 100;
+}
+.sec-journal__h1{
+   color: #040062;
+   font-size: 40px;
+   width: 400px; 
+}
+.sec-journal__p {
+   line-height: 1.5;
+   color: #6D758D;
+   font-size: 14px;
+   width: 370px;
+   font-family: 'Ubuntu', sans-serif;
+}
+/* sec-journal */
+
+/* sec-data */
+.sec-data {      
+  max-width: 1110px;    
+  margin: 0 auto; 
+  background: linear-gradient(to left, white 50%, #FEF1EF 50%); 
+}
+.sec-data__content{ 
+     display: flex;  
+     align-items: center;  
+     justify-content: space-between; 
+     padding: 7% 20%;
+     gap: 30%;
+}   
+.sec-data__img{
+  margin: 0% -25%;
+  border-radius: 37px;
+}
+.sec-data__text{
+   display: flex;
+   flex-direction: column;
+   gap: 32px;
+   font-family: 'Abril Fatface' cursive;
+}
+.sec-data__h1{
+   color: #040062;
+   font-size: 48px;
+   width: 450px; 
+   
+} 
+.sec-data__p {
+   line-height: 1.5;
+   color: #6D758D;
+   font-size: 14px;
+   width: 370px;
+   font-family: 'Ubuntu', sans-serif;
+}
