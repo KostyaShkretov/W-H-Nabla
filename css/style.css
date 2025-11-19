@@ -1,44 +1,140 @@
-* { 
-    box-sizing: border-box; 
-    margin: 0; 
-    padding: 0; 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+/* header */
+ * { 
+   box-sizing: border-box; 
+   margin: 0; 
+   padding: 0; 
 } 
-.header { 
-    padding: 28px 50px;
-} 
- .nav {
-    display: flex;
-    align-items: center;
- }
-.nav ul {
-     list-style: none;
+.header {
+   padding: 2% 10%;
 }
- .nav a { 
-    text-decoration: none;
- }   
-.left-style {   
-    color: #040062; 
-    font-size: 24px; 
-    font-family: 'Poppins';
-    font-weight: bold;  
-}  
- .ul-between { 
-    margin-left: 50px;
-    margin-right: 600px;
-    display: flex;          
-    gap: 32px;   
- }
-.between-style {  
-    color: #040062; 
-    font-size: 16px; 
-    font-family: 'Ubuntu';
-    } 
- .right-style { 
-     font-family: 'Ubuntu'; 
-     font-size: 16px; 
-     color: white; 
-     border: 2px solid #0013FF; 
-     padding:3px 16px; 
-     border-radius:999px;
-     background-color: #0013FF;
-     }
+.header__nav{
+   display: flex;
+   align-items: center;
+}
+.header__between {
+   display: flex;
+   gap: 32px;
+   margin-left: 7%; 
+   list-style: none; 
+}
+
+.header__right {
+   margin-left: auto; 
+   display: flex;
+}
+.header-left__style{
+   text-decoration: none;
+   color: #040062; 
+   font-size: 24px; 
+   font-family: 'Poppins', sans-serif;
+   font-weight: bold; 
+}
+.header-between__style{
+   text-decoration: none;
+   color: #040062; 
+   font-size: 16px; 
+   font-family: 'Ubuntu';
+}
+.header-right__style{
+   font-family: 'Ubuntu'; 
+   font-size: 16px; 
+   color: white; 
+   border: 2px solid #0013FF; 
+   padding:3px 16px; 
+   border-radius:999px;
+   background-color: #0013FF;
+   text-decoration: none;
+}
+.content{
+   height: 550px; 
+   margin: 0 auto;
+   max-width: 1110px;
+   background-color: #C7E3E9;
+}
+.intro {
+   margin-bottom: 120px; 
+}
+/* header */
+
+/* sec__obj */
+.sec-obj {      
+  max-width: 1110px;    
+  margin: 0 auto; 
+  background: linear-gradient(to left, white 50%, #FEF1EF 50%); 
+}
+.sec-obj__content{ 
+     display: flex;  
+     align-items: center;  
+     justify-content: space-between; 
+     padding: 7% 20%;
+     gap: 30%;
+}   
+.sec-obj__img{
+  margin: 0% -25%;
+  border-radius: 37px;
+}
+.sec-obj__text{
+   display: flex;
+   flex-direction: column;
+   gap: 32px;
+   font-family: 'Abril Fatface' cursive;
+}
+.sec-obj__h1{
+   color: #040062;
+   font-size: 48px;
+   width: 400px; 
+   
+}
+.sec-obj__p {
+   line-height: 1.5;
+   color: #6D758D;
+   font-size: 14px;
+   width: 400px;
+   font-family: 'Ubuntu', sans-serif;
+}
+/* sec__obj */
+
+/* sec-chats */
+.sec-chats {      
+  max-width: 1110px;    
+  margin: 0 auto; 
+  background: linear-gradient(to left, #C7E3E9 50%, white 50%); 
+}
+.sec-chats__content{ 
+     display: flex;  
+     align-items: center;  
+     flex-direction: row-reverse ;
+     justify-content: space-between; 
+     padding: 7% 20%;
+     gap: 30%;
+}   
+.sec-chats__img {
+  margin: 0% 25%;
+  border-radius: 37px;
+}
+.sec-chats__text{
+   display: flex;
+   flex-direction: column;
+   gap: 32px;
+   font-family: 'Abril Fatface' cursive;
+   font-weight: 100;
+    
+}
+.sec-chats__h1{
+   color: #040062;
+   font-size: 48px;
+   width: 400px; 
+}
+.sec-chats__p {
+   line-height: 1.5;
+   color: #6D758D;
+   font-size: 14px;
+   width: 370px;
+   font-family: 'Ubuntu', sans-serif;
+}
+/* sec-chats */
+
+
+ 
