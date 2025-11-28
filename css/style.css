@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -12,21 +11,24 @@ a {
 
 /* header */
 .header {
-  padding: 20px 140px;
+  padding: 24px 312px;
 }
-.header__nav {
+.header__container {
   display: flex;
   align-items: center;
 }
 .header__between {
   display: flex;
-  gap: 32px;
-  margin-left: 50px;
+  gap: 20px;
   list-style: none;
 }
-.header__btn {
-  margin-left: auto;
-  display: flex;
+.between__style {
+  color: #040062;
+  font-size: 16px;
+  font-family: "Ubuntu";
+}
+.header__nabla {
+  margin-right: 50px;
 }
 .nabla__style {
   color: #040062;
@@ -34,10 +36,8 @@ a {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
 }
-.header-between__style {
-  color: #040062;
-  font-size: 16px;
-  font-family: "Ubuntu";
+.header__btn {
+  margin-left: auto;
 }
 .btn__style {
   font-family: "Ubuntu";
@@ -48,57 +48,61 @@ a {
   border-radius: 999px;
   background-color: #0013ff;
 }
-@media screen and (max-width: 1340px) {
-  .header {
-    padding: 20px 100px;
-  }
-}
-@media screen and (max-width: 1290px) {
-  .header {
-    padding: 20px 80px;
-  }
-}
-@media screen and (max-width: 1250px) {
-  .header {
-    padding: 20px 60px;
-  }
-}
-@media screen and (max-width: 900px) {
-  .header__nav {
-    display: flex;
-    flex-direction: column;
-  }
-  .header__btn {
-    padding-top: 15px;
-    margin: 0 auto;
-  }
-  .header__nabla {
-    padding-bottom: 10px;
-    margin: 0 auto;
-  }
-  .header__between {
-    margin: 0 auto;
-  }
-}
 /* header */
 
-.content {
-  width: calc(100% - 120px);
-  height: 550px;
-  margin: 0 auto;
-  max-width: 1110px;
-  background-color: #c7e3e9;
-}
+/* intro */
 .intro {
-  margin-bottom: 120px;
+  padding-inline: 312px;
+  padding-bottom: 120px;
 }
+.intro__container {
+  background-color: #c7e3e9;
+  max-width: 1296px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  padding: 80px 0px 90px;
+  position: relative;
+}
+.intro__container h1 {
+  text-align: center;
+}
+.intro__text {
+  color: #040062;
+  font-family: "Abril Fatface";
+  
+}
+.t1 {
+  font-size: 60px;
+  font-weight: 400;
+}
+.t2 {
+  font-size: 80px;
+  font-weight: 400;
+}
+.t3 {
+  font-size: 110px;
+  font-weight: 400;
+}
+.intro__img1,
+.intro__img2 {
+  position: absolute;
+  bottom: 0;
+}
+.intro__img1 {
+  left: 0;
+}
+.intro__img2 {
+  right: 0;
+}
+/* intro */
 
 /* block-obj */
 .block-obj {
+  padding: 0px 312px;
   display: flex;
-  max-width: 1110px;
-  margin: 0 auto;
-  width: calc(100% - 120px);
 }
 .block-obj__img {
   display: flex;
@@ -108,13 +112,13 @@ a {
   background-color: #fef1ef;
 }
 .block-obj__text {
-  padding-left: 80px;
-  padding-top: 60px;
+  padding-left: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 50%;
   gap: 32px;
+  padding-right: 60px;
 }
 .img--modif {
   border-radius: 37px;
@@ -122,24 +126,23 @@ a {
 .block-obj__h1 {
   font-family: "Abril Fatface" cursive;
   color: #040062;
-  font-size: 48px;
-  padding-right: 40px;
+  font-size: 48px; 
+  max-width: 450px;
 }
 .block-obj__p {
   line-height: 1.5;
   color: #6d758d;
-  font-size: 14px;
+  font-size: 18px;
   font-family: "Ubuntu", sans-serif;
+  max-width: 490px; 
 }
 
 /* block-obj */
 /* block-reverse */
 .block-reverse {
-  display: flex;
   flex-direction: row-reverse;
-  max-width: 1110px;
-  margin: 0 auto;
-  width: calc(100% - 120px);
+  padding: 0px 312px;
+  display: flex;
 }
 .block-reverse__img {
   display: flex;
@@ -149,27 +152,25 @@ a {
   background-color: #c7e3e9;
 }
 .block-reverse__text {
-  padding-right: 100px;
-  padding-top: 60px;
+  padding-right: 88px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 50%;
   gap: 32px;
 }
-.block-obj__h1--modif {
-  padding-left: 40px;
+.block-obj__h1--modif { 
   font-family: "Abril Fatface" cursive;
   color: #040062;
-  font-size: 48px;
-  padding-right: 40px;
+  font-size: 48px; 
+  max-width: 460px;
 }
 .block-obj__p--modif {
   line-height: 1.5;
   color: #6d758d;
-  font-size: 14px;
-  font-family: "Ubuntu", sans-serif;
-  padding-left: 40px;
+  font-size: 18px;
+  font-family: "Ubuntu", sans-serif; 
+  max-width: 523px;
 }
 /* block-reverse */
 /* media block */
@@ -243,13 +244,13 @@ a {
   .block-obj__p {
     line-height: 1.4;
     color: #6d758d;
-    font-size: 14px; 
+    font-size: 14px;
   }
-
+  /* media reverse */
   .block-reverse {
-    display: flex; 
+    display: flex;
     flex-direction: column-reverse;
-    gap: 60px;  
+    gap: 60px;
     width: calc(100% - 40px);
   }
   .block-reverse__text {
@@ -261,15 +262,15 @@ a {
     gap: 24px;
     padding-right: 20px;
     padding-top: 60px;
-   
   }
-  .block-obj__h1--modif {  
-    font-size: 36px; 
+  .block-obj__h1--modif {
+    font-size: 36px;
     padding-left: 75px;
   }
-    .block-obj__p--modif {
-    line-height: 1.4; 
-    font-size: 14px; 
+  .block-obj__p--modif {
+    line-height: 1.4;
+    font-size: 14px;
     padding-left: 75px;
   }
 }
+/* media reverse */
