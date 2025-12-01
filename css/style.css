@@ -8,7 +8,9 @@
 a {
   text-decoration: none;
 }
-
+ul {
+  list-style: none;
+}
 /* header */
 .header {
   padding: 24px 0px;
@@ -23,7 +25,6 @@ a {
 .header__between {
   display: flex;
   gap: 20px;
-  list-style: none;
 }
 .between__style {
   color: #040062;
@@ -125,7 +126,6 @@ a {
   justify-content: center;
   width: 50%;
   gap: 32px;
-  
 }
 .block-obj__h1 {
   font-family: "Abril Fatface" cursive;
@@ -156,7 +156,7 @@ a {
   padding: 70px 0px;
   background-color: #c7e3e9;
 }
-.block-reverse__text {  
+.block-reverse__text {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -173,7 +173,7 @@ a {
   line-height: 1.5;
   color: #6d758d;
   font-size: 18px;
-  font-family: "Ubuntu", sans-serif; 
+  font-family: "Ubuntu", sans-serif;
   padding-right: 88px;
 }
 /* block-reverse */
@@ -278,3 +278,57 @@ a {
   }
 }
 /* media reverse */
+/* foot */
+.foot {
+  border-top: 1px solid #dce0e9;
+  margin-top: 100px;
+}
+.foot__container {
+  max-width: 1296px;
+  width: calc(100% - 120px);
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+.foot__heading {
+  font-family: "Ubuntu", sans-serif;
+  color: #040062;
+  font-size: 24px;
+}
+.foot__heading--modif {
+  margin-bottom: 18px;
+}
+.foot__subheading {
+  font-family: "Ubuntu", sans-serif;
+  color: #6d758d;
+  font-size: 16px;
+} 
+.line {
+  text-decoration: underline;
+}
+.foot__nabla {
+  margin-right: 180px;
+}
+.foot__navigation {
+  display: flex;
+  gap: 120px;
+}
+
+.foot__bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  margin-left: auto;
+}
+.foot__soc {
+  display: flex;
+  gap: 28px;
+}
+.foot__text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+/* foot */
