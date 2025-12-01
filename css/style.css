@@ -11,9 +11,12 @@ a {
 
 /* header */
 .header {
-  padding: 24px 312px;
+  padding: 24px 0px;
 }
 .header__container {
+  max-width: 1296px;
+  width: calc(100% - 120px);
+  margin: 0 auto;
   display: flex;
   align-items: center;
 }
@@ -52,12 +55,12 @@ a {
 
 /* intro */
 .intro {
-  padding-inline: 312px;
   padding-bottom: 120px;
 }
 .intro__container {
   background-color: #c7e3e9;
   max-width: 1296px;
+  width: calc(100% - 120px);
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -72,7 +75,6 @@ a {
 .intro__text {
   color: #040062;
   font-family: "Abril Fatface";
-  
 }
 .t1 {
   font-size: 60px;
@@ -101,8 +103,10 @@ a {
 
 /* block-obj */
 .block-obj {
-  padding: 0px 312px;
   display: flex;
+  max-width: 1296px;
+  width: calc(100% - 120px);
+  margin: 0 auto;
 }
 .block-obj__img {
   display: flex;
@@ -111,6 +115,9 @@ a {
   padding: 70px 0px;
   background-color: #fef1ef;
 }
+.img--modif {
+  border-radius: 37px;
+}
 .block-obj__text {
   padding-left: 100px;
   display: flex;
@@ -118,31 +125,29 @@ a {
   justify-content: center;
   width: 50%;
   gap: 32px;
-  padding-right: 60px;
-}
-.img--modif {
-  border-radius: 37px;
+  
 }
 .block-obj__h1 {
   font-family: "Abril Fatface" cursive;
   color: #040062;
-  font-size: 48px; 
-  max-width: 450px;
+  font-size: 48px;
+  padding-right: 60px;
 }
 .block-obj__p {
   line-height: 1.5;
   color: #6d758d;
   font-size: 18px;
   font-family: "Ubuntu", sans-serif;
-  max-width: 490px; 
+  padding-right: 40px;
 }
 
 /* block-obj */
 /* block-reverse */
 .block-reverse {
-  flex-direction: row-reverse;
-  padding: 0px 312px;
   display: flex;
+  max-width: 1286px;
+  width: calc(100% - 120px);
+  margin: 0 auto;
 }
 .block-reverse__img {
   display: flex;
@@ -151,26 +156,25 @@ a {
   padding: 70px 0px;
   background-color: #c7e3e9;
 }
-.block-reverse__text {
-  padding-right: 88px;
+.block-reverse__text {  
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 50%;
   gap: 32px;
 }
-.block-obj__h1--modif { 
+.block-obj__h1--reverse {
   font-family: "Abril Fatface" cursive;
   color: #040062;
-  font-size: 48px; 
-  max-width: 460px;
+  font-size: 48px;
+  padding-right: 60px;
 }
-.block-obj__p--modif {
+.block-obj__p--reverse {
   line-height: 1.5;
   color: #6d758d;
   font-size: 18px;
   font-family: "Ubuntu", sans-serif; 
-  max-width: 523px;
+  padding-right: 88px;
 }
 /* block-reverse */
 /* media block */
