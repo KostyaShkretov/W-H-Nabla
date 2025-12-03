@@ -337,40 +337,40 @@ ul {
   }
 }
 @media screen and (max-width: 850px) {
-  .block-reverse  {
+  .block-reverse {
     flex-direction: column;
     gap: 60px;
     width: calc(100% - 120px);
     padding-bottom: 50px;
   }
-  .block-reverse__text { 
-    width: 100%; 
-  }
- .block-reverse__img {
-  margin: 0 auto;
-  width: 80%;
- }
   .block-reverse__text {
-  padding-left: 100px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  gap: 32px;
-  margin: 0 auto;
-  padding-right: 80px;
-}
-.block-obj__h1--reverse {
-  font-size: 48px;  
-}
-.block-obj__p--reverse {
-  line-height: 1.5; 
-  font-size: 18px;   
-}
+    width: 100%;
+  }
+  .block-reverse__img {
+    margin: 0 auto;
+    width: 80%;
+  }
+  .block-reverse__text {
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap: 32px;
+    margin: 0 auto;
+    padding-right: 80px;
+  }
+  .block-obj__h1--reverse {
+    font-size: 48px;
+  }
+  .block-obj__p--reverse {
+    line-height: 1.5;
+    font-size: 18px;
+  }
 }
 
-/*  end block-reverse */ 
- 
+/*  end block-reverse */
+
 /* start foot */
 .foot {
   border-top: 1px solid #dce0e9;
@@ -427,44 +427,42 @@ ul {
   text-decoration: underline;
 }
 @media screen and (max-width: 1150px) {
- .foot__navigation {
-  gap: 80px;
- }
- .foot__nabla {
-  margin-right: 80px;
-}
+  .foot__navigation {
+    gap: 80px;
+  }
+  .foot__nabla {
+    margin-right: 80px;
+  }
 }
 @media screen and (max-width: 1000px) {
- .foot__navigation {
-  gap: 40px;
- } 
+  .foot__navigation {
+    gap: 40px;
+  }
   .foot__nabla {
-  margin-right: 40px;
+    margin-right: 40px;
+  }
 }
- 
-} 
 @media screen and (max-width: 850px) {
-  .foot { 
-  margin-top: 60px;
+  .foot {
+    margin-top: 60px;
+  }
+  .foot__container {
+    flex-direction: column;
+    width: calc(100% - 80px);
+    margin-top: 60px;
+  }
+  .foot__nabla {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .foot__navigation {
+    margin: 0 auto;
+  }
+  .foot__button {
+    margin: 0 auto;
+  }
+  .foot__soc {
+    margin-top: 50px;
+  }
 }
- .foot__container {    
-  flex-direction: column; 
-  width: calc(100% - 80px);
-  margin-top: 60px; 
-}
- .foot__nabla  {
-  margin: 0 auto;
-  margin-bottom: 20px; 
- }
-.foot__navigation {
-  margin: 0 auto;
-  
-}
-.foot__button {  
-   margin: 0 auto;
-}
-.foot__soc {
-  margin-top: 50px;
-}
-} 
 /* emd foot */
